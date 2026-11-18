@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colour Theme Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+
+        <div class="logo">
+            Color<span>Switch.</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#themes">Themes</a>
+            <a href="#preview">Preview</a>
+            <a href="#about">About</a>
+        </div>
+
+    </div>
+
+
+    <!-- HERO SECTION -->
+
+    <div class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">CHANGE THE LOOK. SET THE MOOD.</p>
+
+            <h1>Every Colour Has<br>A Different <span>Mood.</span></h1>
+
+            <p class="hero-text">
+                Give your website a fresh new look.
+                Explore different colour combinations and
+                choose the theme that matches your style.
+            </p>
+
+            <a href="#themes" class="main-btn">Explore Themes →</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- THEME SECTION -->
+
+    <div class="theme-section" id="themes">
+
+        <div class="section-heading">
+
+            <p class="small-heading">PICK YOUR FAVOURITE</p>
+
+            <h2>Choose Your Theme</h2>
+
+            <p>
+                Explore different colours and give your website
+                a look of its own.
+            </p>
+
+        </div>
+
+
+        <div class="theme-container">
+
+            <div class="theme-card">
+
+                <div class="color-box light-color"></div>
+
+                <h3>Classic Light</h3>
+
+                <p>Clean, simple and minimal.</p>
+
+                <button onclick="changeTheme('light')">
+                    Apply Theme
+                </button>
+
+            </div>
+
+
+            <div class="theme-card">
+
+                <div class="color-box dark-color"></div>
+
+                <h3>Midnight Dark</h3>
+
+                <p>Elegant and easy on the eyes.</p>
+
+                <button onclick="changeTheme('dark')">
+                    Apply Theme
+                </button>
+
+            </div>
+
+
+            <div class="theme-card">
+
+                <div class="color-box pink-color"></div>
+
+                <h3>Blush Pink</h3>
+
+                <p>Soft, warm and beautiful.</p>
+
+                <button onclick="changeTheme('pink')">
+                    Apply Theme
+                </button>
+
+            </div>
+
+
+            <div class="theme-card">
+
+                <div class="color-box blue-color"></div>
+
+                <h3>Ocean Blue</h3>
+
+                <p>Fresh, calm and peaceful.</p>
+
+                <button onclick="changeTheme('blue')">
+                    Apply Theme
+                </button>
+
+            </div>
+
+
+            <div class="theme-card">
+
+                <div class="color-box green-color"></div>
+
+                <h3>Sage Green</h3>
+
+                <p>Natural, soothing and balanced.</p>
+
+                <button onclick="changeTheme('green')">
+                    Apply Theme
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="reset-area">
+
+            <p>Want to go back to the original look?</p>
+
+            <button class="reset-btn" onclick="changeTheme('light')">
+                Reset Theme
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- PREVIEW SECTION -->
+
+    <div class="preview-section" id="preview">
+
+        <div class="section-heading">
+
+            <p class="small-heading">LIVE PREVIEW</p>
+
+            <h2>Your Theme, Your Style.</h2>
+
+            <p>
+                See how your selected colours change the website.
+            </p>
+
+        </div>
+
+
+        <div class="preview-box">
+
+            <div class="preview-top">
+
+                <p>WEBSITE PREVIEW</p>
+
+                <div class="theme-status">
+                    Current Theme: <span id="themeName">Classic Light</span>
+                </div>
+
+            </div>
+
+
+            <div class="preview-content">
+
+                <h3>Welcome to My Website!</h3>
+
+                <p>
+                    Colours can change the way a website feels.
+                    Choose your favourite theme and enjoy a
+                    different browsing experience.
+                </p>
+
+                <button>Explore More →</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+
+    <div class="about-section" id="about">
+
+        <div class="about-content">
+
+            <p class="small-heading">ABOUT THE PROJECT</p>
+
+            <h2>A Simple Way to Change Your Website's Look.</h2>
+
+            <p>
+                ColourSwitch is a beginner-level web development
+                project created using HTML, CSS and JavaScript.
+
+                It allows users to change the appearance of a website
+                by selecting different colour themes.
+
+                This project helped me understand JavaScript functions,
+                conditional statements and DOM manipulation.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <div class="footer-logo">
+            Color<span>Switch.</span>
+        </div>
+
+        <p>Explore colours. Express yourself.</p>
+
+        <div class="footer-line"></div>
+
+        <p class="copyright">
+            © 2026 ColorSwitch | Made with HTML, CSS & JavaScript
+        </p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
